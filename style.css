@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #deb753;
+    background-image:url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+  
+  .stopwatch {
+    text-align: center;
+    background: #d0ae7a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    background: #b9973a;
+  
+  }
+  
+  .display {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  .controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font:bold;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+    background: #9d909c;
+    color: rgb(139, 88, 88);
+    transition:background 0.3s;
+  }
+  
+  .controls button:hover {
+    background: #76b0ee;
+  }
+  
+  #laps {
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  
